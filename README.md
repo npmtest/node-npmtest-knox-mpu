@@ -1,4 +1,7 @@
-# test coverage for  [knox-mpu (v0.1.6)](https://github.com/nathanoehlman/knox-mpu#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-knox-mpu.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-knox-mpu) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-knox-mpu.svg)](https://travis-ci.org/npmtest/node-npmtest-knox-mpu)
+# npmtest-knox-mpu
+
+#### basic test coverage for  [knox-mpu (v0.1.6)](https://github.com/nathanoehlman/knox-mpu#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-knox-mpu.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-knox-mpu) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-knox-mpu.svg)](https://travis-ci.org/npmtest/node-npmtest-knox-mpu)
+
 #### Provide multi part upload functionality to Amazon S3 using the knox library
 
 [![NPM](https://nodei.co/npm/knox-mpu.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/knox-mpu)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-knox-mpu/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-knox-mpu/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-knox-mpu/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-knox-mpu/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-knox-mpu/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-knox-mpu/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-knox-mpu/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-knox-mpu/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-knox-mpu/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-knox-mpu/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-knox-mpu/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-knox-mpu/build/coverage.html/index.html)
 
@@ -80,7 +83,8 @@
     "scripts": {
         "test": "mocha --reporter spec -t 0"
     },
-    "version": "0.1.6"
+    "version": "0.1.6",
+    "bin": {}
 }
 ```
 
